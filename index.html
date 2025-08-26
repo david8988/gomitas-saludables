@@ -11,133 +11,144 @@
   <!-- Navbar -->
   <header class="fixed w-full bg-white shadow-md z-50">
     <div class="container mx-auto flex justify-between items-center p-4">
-      <h1 class="text-xl font-bold text-green-600">Gomitas Saludables</h1>
-      <!-- Menu desktop -->
-      <nav class="hidden md:flex space-x-6">
+      <h1 class="text-xl font-bold text-green-600">🍬 Gomitas Saludables</h1>
+      <nav class="hidden md:flex space-x-6 font-medium">
         <a href="#inicio" class="hover:text-green-600">Inicio</a>
-        <a href="#info" class="hover:text-green-600">Información</a>
+        <a href="#beneficios" class="hover:text-green-600">Beneficios</a>
         <a href="#galeria" class="hover:text-green-600">Galería</a>
-        <a href="#video" class="hover:text-green-600">Video</a>
-        <a href="#composicion" class="hover:text-green-600">Composición</a>
+        <a href="#video" class="hover:text-green-600">Preparación</a>
+        <a href="#nutricion" class="hover:text-green-600">Nutrición</a>
         <a href="#contacto" class="hover:text-green-600">Contacto</a>
       </nav>
-      <!-- Botón hamburguesa -->
       <button id="menu-btn" class="md:hidden flex flex-col space-y-1">
         <span class="block w-6 h-0.5 bg-gray-800"></span>
         <span class="block w-6 h-0.5 bg-gray-800"></span>
         <span class="block w-6 h-0.5 bg-gray-800"></span>
       </button>
     </div>
-    <!-- Menu móvil -->
-    <nav id="menu" class="hidden flex-col bg-white md:hidden px-4 pb-4">
+    <nav id="menu" class="hidden flex-col bg-white md:hidden px-4 pb-4 font-medium">
       <a href="#inicio" class="py-2 hover:text-green-600">Inicio</a>
-      <a href="#info" class="py-2 hover:text-green-600">Información</a>
+      <a href="#beneficios" class="py-2 hover:text-green-600">Beneficios</a>
       <a href="#galeria" class="py-2 hover:text-green-600">Galería</a>
-      <a href="#video" class="py-2 hover:text-green-600">Video</a>
-      <a href="#composicion" class="py-2 hover:text-green-600">Composición</a>
+      <a href="#video" class="py-2 hover:text-green-600">Preparación</a>
+      <a href="#nutricion" class="py-2 hover:text-green-600">Nutrición</a>
       <a href="#contacto" class="py-2 hover:text-green-600">Contacto</a>
     </nav>
   </header>
 
-  <!-- Hero / Collage -->
-  <section id="inicio" class="pt-20">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-2 p-4">
-      <img src="https://picsum.photos/400/300?random=1" class="w-full h-48 object-cover rounded-lg">
-      <img src="https://picsum.photos/400/300?random=2" class="w-full h-48 object-cover rounded-lg">
-      <img src="https://picsum.photos/400/300?random=3" class="w-full h-48 object-cover rounded-lg">
-      <img src="https://picsum.photos/400/300?random=4" class="w-full h-48 object-cover rounded-lg">
-    </div>
-    <div class="text-center py-6">
-      <h2 class="text-3xl md:text-5xl font-bold text-green-600">Gomitas Saludables</h2>
-      <p class="text-gray-600 mt-2">El dulce natural que cuida tu salud</p>
-    </div>
-  </section>
-
-  <!-- Información -->
-  <section id="info" class="py-16 bg-green-50">
-    <div class="container mx-auto text-center px-4">
-      <h3 class="text-2xl font-bold mb-6">Beneficios y Vitaminas</h3>
-      <p class="max-w-2xl mx-auto text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu erat nec
-        justo porta malesuada. Aliquam erat volutpat. Integer sed dolor nec nulla 
-        hendrerit viverra. <br><br>
-        💊 Contiene 80% de la dosis diaria recomendada de Vitamina C.  
-        💪 Fortalece el sistema inmunológico.  
-        🌱 Ingredientes 100% naturales.  
+  <!-- Hero -->
+  <section id="inicio" class="pt-24 bg-gradient-to-r from-green-100 to-green-50">
+    <div class="container mx-auto text-center px-4 py-12">
+      <h2 class="text-4xl md:text-6xl font-extrabold text-green-700 mb-4">Gomitas Saludables</h2>
+      <p class="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
+        El dulce natural que fortalece tus defensas y potencia tu concentración 🎓💪
       </p>
-    </div>
-  </section>
-
-  <!-- Galería -->
-  <section id="galeria" class="py-16">
-    <div class="container mx-auto px-4">
-      <h3 class="text-2xl font-bold text-center mb-8">Galería del Producto</h3>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <img src="https://picsum.photos/400/400?random=5" class="w-full h-48 object-cover rounded-lg">
-        <img src="https://picsum.photos/400/400?random=6" class="w-full h-48 object-cover rounded-lg">
-        <img src="https://picsum.photos/400/400?random=7" class="w-full h-48 object-cover rounded-lg">
-        <img src="https://picsum.photos/400/400?random=8" class="w-full h-48 object-cover rounded-lg">
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3">
+        <img src="https://picsum.photos/400/300?random=10" class="rounded-xl shadow-md">
+        <img src="https://picsum.photos/400/300?random=11" class="rounded-xl shadow-md">
+        <img src="https://picsum.photos/400/300?random=12" class="rounded-xl shadow-md">
+        <img src="https://picsum.photos/400/300?random=13" class="rounded-xl shadow-md">
       </div>
     </div>
   </section>
 
-  <!-- Video -->
-  <section id="video" class="py-16 bg-green-50">
-    <div class="container mx-auto text-center px-4">
-      <h3 class="text-2xl font-bold mb-6">Preparación del Producto</h3>
-      <div class="aspect-w-16 aspect-h-9 max-w-3xl mx-auto">
+  <!-- Beneficios -->
+  <section id="beneficios" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-10 text-green-700">🌟 Beneficios</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-green-50 p-6 rounded-xl shadow hover:scale-105 transition">
+          <h4 class="font-bold text-xl mb-2">Refuerza defensas</h4>
+          <p>Con vitaminas C, D y Zinc que protegen el sistema inmunológico y reducen enfermedades comunes.</p>
+        </div>
+        <div class="bg-green-50 p-6 rounded-xl shadow hover:scale-105 transition">
+          <h4 class="font-bold text-xl mb-2">Mejora la concentración</h4>
+          <p>Con nutrientes que apoyan la memoria y energía mental, ideales para estudiantes en época de exámenes.</p>
+        </div>
+        <div class="bg-green-50 p-6 rounded-xl shadow hover:scale-105 transition">
+          <h4 class="font-bold text-xl mb-2">Deliciosas y prácticas</h4>
+          <p>Sabores frutales, formato divertido y empaque portátil. Una gomita fácil de llevar y disfrutar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" class="py-16 bg-green-50">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-10 text-green-700">📸 Galería</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="https://picsum.photos/400/400?random=14" class="rounded-xl shadow-md">
+        <img src="https://picsum.photos/400/400?random=15" class="rounded-xl shadow-md">
+        <img src="https://picsum.photos/400/400?random=16" class="rounded-xl shadow-md">
+        <img src="https://picsum.photos/400/400?random=17" class="rounded-xl shadow-md">
+      </div>
+    </div>
+  </section>
+
+  <!-- Video preparación -->
+  <section id="video" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6 text-green-700">🎥 Preparación</h3>
+      <p class="mb-6 text-gray-700 max-w-2xl mx-auto">
+        Nuestras gomitas pasaron varias pruebas hasta lograr una textura suave y un sabor natural.
+        Usamos más fruta fresca y menos endulzante para que sean saludables y ricas.
+      </p>
+      <div class="max-w-3xl mx-auto">
         <iframe class="w-full h-64 md:h-96 rounded-lg shadow-md"
           src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          title="Video demostración"
-          allowfullscreen>
+          title="Video preparación"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nutrición -->
+  <section id="nutricion" class="py-16 bg-green-50">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-10 text-green-700">🍊 Ingredientes y Nutrición</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="font-bold text-lg mb-2">Ingredientes naturales</h4>
+          <p>Arándanos, fresas, naranja, gelatina sin sabor, extracto de romero y stevia.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="font-bold text-lg mb-2">Vitaminas clave</h4>
+          <p>Vitamina C, Vitamina D, Zinc y Vitaminas del grupo B para defensas y memoria.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="font-bold text-lg mb-2">Presentación divertida</h4>
+          <p>Forma de ositos o frutas, colores brillantes y textura gomosa que encanta a todos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6 text-green-700">📞 Contáctanos</h3>
+      <p class="mb-4">Proyecto escolar del equipo <b>"Los Iluminados"</b> - I.E. Unión Latinoamericana 1235</p>
+      <a href="https://wa.me/51999999999" target="_blank"
+         class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 mb-8">
+        📲 Escríbenos por WhatsApp
+      </a>
+      <!-- Google Form -->
+      <div class="max-w-2xl mx-auto">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEjemploURL/viewform?embedded=true"
+          width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">
+          Cargando…
         </iframe>
       </div>
     </div>
   </section>
 
-  <!-- Composición -->
-  <section id="composicion" class="py-16">
-    <div class="container mx-auto px-4 text-center">
-      <h3 class="text-2xl font-bold mb-6">Composición del Producto</h3>
-      <ul class="max-w-xl mx-auto text-gray-700 space-y-2">
-        <li>🍓 Lorem ipsum dolor sit amet</li>
-        <li>🍊 Consectetur adipiscing elit</li>
-        <li>🍋 Integer molestie lorem at massa</li>
-        <li>🍇 Facilisis in pretium nisl aliquet</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Contacto -->
-  <section id="contacto" class="py-16 bg-green-50">
-    <div class="container mx-auto px-4 text-center">
-      <h3 class="text-2xl font-bold mb-6">Contáctanos</h3>
-      <p class="mb-4">Grupo de estudiantes - Proyecto escolar</p>
-      <a href="https://wa.me/51993188818" target="_blank"
-         class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 mb-8">
-        📲 Escríbenos por WhatsApp
-      </a>
-      <form action="https://formspree.io/f/{tu-id}" method="POST" class="max-w-lg mx-auto space-y-4">
-        <input type="text" name="name" placeholder="Tu nombre"
-               class="w-full border p-3 rounded-lg" required>
-        <input type="email" name="email" placeholder="Tu correo"
-               class="w-full border p-3 rounded-lg" required>
-        <textarea name="message" placeholder="Tu mensaje"
-                  class="w-full border p-3 rounded-lg h-32" required></textarea>
-        <button type="submit"
-                class="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700">
-          Enviar mensaje
-        </button>
-      </form>
-    </div>
-  </section>
-
   <!-- Footer -->
   <footer class="bg-gray-800 text-white py-6 text-center">
-    <p>© 2025 Gomitas Saludables - Proyecto escolar</p>
+    <p>© 2025 Gomitas Saludables - Proyecto escolar | Hecho con 💚 por "Los Iluminados"</p>
   </footer>
 
-  <!-- Script para menú hamburguesa -->
+  <!-- Script menú hamburguesa -->
   <script>
     const btn = document.getElementById("menu-btn");
     const menu = document.getElementById("menu");
@@ -145,5 +156,6 @@
       menu.classList.toggle("hidden");
     });
   </script>
+
 </body>
 </html>
